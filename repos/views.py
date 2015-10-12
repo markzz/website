@@ -28,7 +28,7 @@ def repository(request, os, repo):
     navbar = gen_navbar()
     package_page = Page.objects.get(name='packages')
     social_media = SocialMediaButton.objects.all()
-    packages = Package.objects.filter(repo=Repository.objects.get(package_type=PackageType.objects.filter(codename=os))).filter(repo=Repository.objects.get(name=repo))
+    packages = Package.objects.filter(repo=Repository.objects.get(package_type=PackageType.objects.filter(codename=os))).filter(repo=Repository.objects.get(name=repo)).order_by('name')
 
     package_page.title = repo
     package_page.subtitle = os[0].upper() + os[1:] + ' Repository'
