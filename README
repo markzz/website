@@ -1,0 +1,18 @@
+This is a Django project in python 3.x for my website at markzz.com. I treat
+this as a side project and don't really pay much attention to it.
+
+Some features include:
+o Page management
+o Personal blog with comment capabilities
+o Pacman repository information (work in progress)
+
+This is highly personalized and contains many references to markzz.com. If you
+use this as a base (or as your actual site with minimal modifications) you may
+want to check over and over that all references to me (except licensing of
+course) is removed. This is a plan for the future to make it more generic and
+suitable for others to use without modification and make it easy to install.
+
+If you do make changes and wish to submit them (which all contributions are
+absolutely welcome), please send a git formatted patch to my email at
+mark.weiman@markzz.com.
+
