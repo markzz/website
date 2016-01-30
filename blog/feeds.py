@@ -12,7 +12,7 @@ def truncate_words(content, length=100, suffix='...'):
 class PostFeed(Feed):
     title = "Mark Weiman's Blog"
     link = "/blog/"
-    description = "Changes on new post"
+    description = "Mark Weiman's blog of his opinions on mostly software"
   
     def items(self):
         return Post.objects.order_by('-created')
