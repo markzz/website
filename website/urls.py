@@ -27,7 +27,7 @@ urlpatterns = [
     url(r'^home/', 'root.views.home', name='home'),
     url(r'^add/$', 'root.views.add', name='page-add'),
     url(r'^edit/$', 'root.views.edit_index', name='index-edit'),
-    url(r'^(?P<path>[a-zA-Z0-9]+)/$', 'root.views.page', name='page'),
-    url(r'^(?P<path>[a-zA-Z0-9]+)/edit/$', 'root.views.edit', name='page-edit'),
+    url(r'^(?P<path>[a-zA-Z0-9\-_]+)/$', 'root.views.page', name='page'),
+    url(r'^(?P<path>[a-zA-Z0-9\-_]+)/edit/$', 'root.views.edit', name='page-edit'),
 ]
 
