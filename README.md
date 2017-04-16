@@ -8,7 +8,7 @@ This is the code for my personal website, features (or future features) include:
 
 ## Installing for testing
 
-1. First, install php however your does it.
+1. First, install php however your system does it.
 2. Install [php-alpm](https://github.com/markzz/php-alpm) (the php extension needed for the repo browser)
 3. Initialize db (instructions soon)
 4. Customize `config/config.php`
